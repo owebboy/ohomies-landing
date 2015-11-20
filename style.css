@@ -10,5 +10,7 @@ h1 {
 }
 
 img {
-  min-width: 100vw;
+  float: left;
+  margin: 20px;
+  width: 100% * 1/2 - 10px;
 }
