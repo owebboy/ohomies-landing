@@ -1,14 +1,38 @@
 html {
   font: 400 1.3em 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   color: #fff;
-  background: #000;
+  padding: 2em;
+  background: url('http://i.giphy.com/sIE0hveuiwCNG.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 0 7px #fff;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 img {
   min-width: 100vw;
 }
+
+.homies-clock {
+  font-size: 5vw;
+  font-weight: 100;
+}
+
+input {
+  border: 2px solid #fff;
+  background: #000;
+  padding: 1em;
+  box-shadow: 0 0 10px #000;
+}
+
+input[type='email'] {
+  width: 70vw;
+}
+
+input:focus { outline: 0; }
